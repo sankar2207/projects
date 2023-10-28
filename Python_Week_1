@@ -1,0 +1,183 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP0F902Vtf7/5JnS0kzuEzk",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sankar2207/python_ai_ml/blob/main/Python_Week_1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "id": "dQxbkSwlgVpr"
+      },
+      "outputs": [],
+      "source": [
+        "import pandas as pd\n",
+        "import matplotlib as plt\n",
+        "import numpy as np\n",
+        "import scipy"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Hello World!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Z-xAawgrhLcN",
+        "outputId": "0a2563eb-a3d6-4a61-e620-f56662be6319"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "##Data Types"
+      ],
+      "metadata": {
+        "id": "7LTtQaHRiR-r"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "int_variable = 16\n",
+        "float_variable = 1.6\n",
+        "string_variable = '16'\n",
+        "bool_variable = True\n",
+        "print(type(int_variable))\n",
+        "print(type(float_variable))\n",
+        "print(type(string_variable))\n",
+        "print(type(bool_variable))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lt8PGg-AhRVG",
+        "outputId": "6af9f662-cbbf-4cac-fe93-5132cdb37755"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n",
+            "<class 'float'>\n",
+            "<class 'str'>\n",
+            "<class 'bool'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Checking a few operators"
+      ],
+      "metadata": {
+        "id": "Cj8gIXRShtpY"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Result for addition is:\",int_variable+float_variable)\n",
+        "print(\"Result for subtractions is:\",int_variable-float_variable)\n",
+        "print(\"Result for multiplication is:\",int_variable*float_variable)\n",
+        "print(\"Result for division is:\",int_variable/float_variable)\n",
+        "print(\"Result for remainder is:\",int_variable%float_variable)\n",
+        "print(\"Result for square is:\",int_variable**float_variable)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kN84JUwjiQsR",
+        "outputId": "bbb71bbf-0767-448e-eeb4-11cd76e53a54"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Result for addition is: 17.6\n",
+            "Result for subtractions is: 14.4\n",
+            "Result for multiplication is: 25.6\n",
+            "Result for division is: 10.0\n",
+            "Result for remainder is: 1.5999999999999992\n",
+            "Result for square is: 84.44850628946526\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(string_variable+str(bool_variable))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gHz6JV3mjDzl",
+        "outputId": "6554b6ea-9ff4-4d64-aa0d-c9ce966c339e"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "16True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "ApEFCwAUjRBE"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
